@@ -195,6 +195,6 @@ footer .footer-nav a:hover {
 
 @media screen and (max-width: 480px) {
   #container .search-bar {
-    width: 350;
+    width: 350px;
   }
 }
