@@ -191,3 +191,10 @@ footer .footer-nav a {
 footer .footer-nav a:hover {
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 480px) {
+  #container .search-bar {
+    width: 350;
+  }
+}
