@@ -103,6 +103,13 @@ a {
   height: 75vh;
 }
 
+#container .logo img {
+  width: 272px;
+  height: 92px;
+  display: block;
+  margin: auto;
+}
+
 /* Search Bar */
 #container .search-bar {
   display: flex;
@@ -116,6 +123,7 @@ a {
   padding: 0 1rem;
   margin: 1.8rem 0;
 }
+
 #container .search-bar input {
   width: 90%;
   height: 70%;
