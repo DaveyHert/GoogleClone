@@ -256,6 +256,9 @@ footer .footer-nav a:hover {
       font-size: 13px;
       text-transform: uppercase;
     }
+  #container .logo img {
+  width: 200px;
+    height: 100%;
     
   #container .search-bar {
     width: 95%;
