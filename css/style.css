@@ -103,13 +103,13 @@ a {
   height: 75vh;
 }
 
+
 #container .logo img {
-  width: 272px;
-  height: 92px;
+  max-width: 272px;
+  max-height: 92px;
   display: block;
   margin: auto;
 }
-
 /* Search Bar */
 #container .search-bar {
   display: flex;
@@ -123,7 +123,6 @@ a {
   padding: 0 1rem;
   margin: 1.8rem 0;
 }
-
 #container .search-bar input {
   width: 90%;
   height: 70%;
@@ -236,7 +235,7 @@ footer .footer-nav a:hover {
   text-decoration: underline;
 }
 
-/* Mobile Nav */
+/* Mobile Nav*/
 @media screen and (max-width: 500px) {
   #nav-bar {
     display: none;
@@ -256,11 +255,12 @@ footer .footer-nav a:hover {
       font-size: 13px;
       text-transform: uppercase;
     }
-  #container .logo img {
-  width: 200px;
-    height: 100%;
-    
+    #container .logo img {
+      width: 170px;
+      height: 100%;
+    }
   #container .search-bar {
-    width: 95%;
+    width: 90%;
+    height: 45px;
   }
 }
